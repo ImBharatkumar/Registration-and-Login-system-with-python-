@@ -22,7 +22,7 @@ def register():
         a, b = i.split(",")
         u.append(a)
         p.append(b)
-    print(u, p)
+    
     user_name = input("enter your name:")
     if isValidemail(user_name):
         pass_word = input("enter your password:")
