@@ -1,33 +1,36 @@
+This repository contains a simple Python application that demonstrates user registration, login, and password reset functionality using Streamlit, MongoDB, and regular expressions for input validation.
 
+Table of Contents
+Installation
+Usage
+Features
+Technologies
+License
+Installation
+To run this application, follow these steps:
 
-Registration System:
+Clone the repository:
+Copy code
+git clone https://github.com/your-username/your-repo-name.git
+Install the required packages:
+Copy code
+pip install -r requirements.txt
+Make sure you have MongoDB installed and running on your local machine.
+Usage
+To run the application, execute the following command:
 
-The registration system allows users to create an account with a unique username and password. It is implemented using Python programming language.
+Copy code
+streamlit run app.py
+The application will open in your web browser, and you can select an option from the dropdown menu to register, log in, or reset your password.
 
-The registration process includes the following steps:
-
-1. User enters their desired username and password into the registration form.
-
-2. The username and password are checked against the system’s database to ensure that they are unique.
-
-3. If the username and password are valid, the user is registered.
-
-6. Once verified, the user can now log into their account.
-
-Login System:
-
-The login system allows users to access their account using their unique username and password. 
-
-The login process includes the following steps:
-
-1. The user enters their username and password into the login form.
-
-2. The username and password are checked against the system’s database to ensure that they match.
-
-3. If the username and password are correct, user is loged in.
-4. if username or password do not matches ,user is asked to ResetPassword or register.
- 
- Reset_password system:
-1.user is aked to provide emal.
-2.if email is valid then user is allowed to reset password.
-
+Features
+User registration with email and password validation
+User login with email and password
+Password reset with email and new password validation
+MongoDB integration for storing user credentials
+Technologies
+Python 3.x
+Streamlit
+MongoDB
+PyMongo
+Regular expressions
